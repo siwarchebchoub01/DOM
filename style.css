@@ -1,0 +1,25 @@
+.style1{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    gap: 25px;
+}
+img{
+    height: 260px;
+}
+.x{
+    background-color: white!important;
+    color:black!important;
+}
+a{
+    margin-left: 35px;
+}
+.fa-solid  {
+    margin-left: 120px;
+     
+}
+.panier{
+    position: relative;
+left: 480px;
+top: 50px;
+}
