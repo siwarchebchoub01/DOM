@@ -27,7 +27,7 @@ for (let i = 0; i < btn1plus.length; i++) {
   btn1plus[i].addEventListener("click", function () {
     compteur1 += 1;
     c1[i].innerHTML = compteur1;
-
+    console.log(prx[i].innerHTML);
     somme += parseInt(prx[i].innerHTML); 
 
     total.innerHTML = somme;
@@ -62,6 +62,7 @@ for (let i = 0; i < btn1plus.length; i++) {
       c1[i].innerHTML = compteur1;
 
       somme -= parseInt(prx[i].innerHTML); 
+      console.log(somme);
       total.innerHTML = somme;
     }
   });
